@@ -7,6 +7,7 @@ public class ParcelaRepository {
     private JdbcTemplate jdbcTemplate;
 
     public ParcelaRepository(JdbcTemplate jdbcTemplate) {
+
         this.jdbcTemplate = jdbcTemplate;
     }
 

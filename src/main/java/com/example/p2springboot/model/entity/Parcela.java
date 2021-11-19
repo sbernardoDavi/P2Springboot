@@ -5,9 +5,7 @@ public class Parcela {
     private int numParcelas;
     private float value;
 
-    public int getId() {
-        return id;
-    }
+    public int getId() { return id; }
 
     public void setId(int id) {
         this.id = id;

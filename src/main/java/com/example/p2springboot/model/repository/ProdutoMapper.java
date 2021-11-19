@@ -6,7 +6,7 @@ import org.springframework.jdbc.core.RowMapper;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class ProdutoMapper implements RowMapper<Produto> {
+public class ProdutoMapper implements RowMapper<Produto>{
 
     @Override
     public Produto mapRow(ResultSet resultSet, int i) throws SQLException {

@@ -20,7 +20,8 @@ public class ProdutoRepository {
     public List<Produto> buscarTodosProdutos() {
         String sql = "select * from produto";
 
-        List<Produto> listarProdutos = jdbcTemplate.query(sql, new ProdutoMapper());
+        List<Produto> listarProdutos = jdbcTemplate.query(
+                sql, new ProdutoMapper());
 
         listarProdutos.forEach(produto -> {
             Parcela parcela = parcelaRepository.procurarParcela(produto.getParcela_id());

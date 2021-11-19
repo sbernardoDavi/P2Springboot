@@ -13,7 +13,6 @@ import java.util.List;
 public class ProdutoController {
 
     private ProdutoRepository produtoRepository;
-
     public ProdutoController(JdbcTemplate jdbcTemplate) {
 
         produtoRepository = new ProdutoRepository(jdbcTemplate);

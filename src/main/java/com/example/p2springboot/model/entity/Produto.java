@@ -11,9 +11,7 @@ public class Produto {
     private Integer parcela_id;
     private Parcela parcela;
 
-    public Integer getId() {
-        return id;
-    }
+    public Integer getId() { return id; }
 
     public void setId(Integer id) {
         this.id = id;
